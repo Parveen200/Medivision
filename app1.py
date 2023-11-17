@@ -6,9 +6,9 @@ from tensorflow.keras.models import load_model
 import tensorflow as tf
 
 # Load the trained models
-pneumonia_model = load_model(r"\PneumoniaDetectionModel.h5")
-brain_tumor_model = load_model(r"\BrainTumorDetectionModel.h5")
-breast_cancer_model = load_model(r"\BreastCancerDetectionModel.h5")
+pneumonia_model = load_model("PneumoniaDetectionModel.h5")
+brain_tumor_model = load_model("BrainTumorDetectionModel.h5")
+breast_cancer_model = load_model("BreastCancerDetectionModel.h5")
 
 # Configure the page layout
 st.set_page_config(
