@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from keras.models import load_model
 from tensorflow.keras.models import load_model
-
+import tensorflow as tf
 
 # Load the trained models
 pneumonia_model = load_model(r"C:\Users\IBM\Desktop\Pneumonia Detection\PneumoniaDetectionModel.h5")
