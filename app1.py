@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # Create a navigation bar at the top
-page = st.selectbox("Select a medical condition:", ('Pneumonia Detection', 'Brain Tumor', 'Breast Cancer'))
+page= st.sidebar.selectbox("Select a medical condition:", ('Pneumonia Detection', 'Brain Tumor', 'Breast Cancer'))
 
 # Streamlit dashboard
 st.title(page)
